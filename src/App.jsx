@@ -15,8 +15,8 @@ export default function TodoApp() {
 
   const loadTodos = async () => {
     try {
-      const todosData = await todoDb.getAllTodos();
-      setTodos(todosData);
+      const { data } = await todoDb.getAllTodos();
+      setTodos(data);
     } catch (error) {
       console.error('Error al cargar las tareas:', error);
     } finally {
