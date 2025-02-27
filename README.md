@@ -1,8 +1,26 @@
-# React + Vite
+# Tutorial ReactJS - FaunaDB
+Integración de una aplicación ReactJS con FaunaDB.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tabla de contenidos
 
-Currently, two official plugins are available:
+* [Información general](#información-general)
+* [Tecnologías](#tecnologías)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Información general
+
+Aplicación de tareas construida con ReactJS. Podemos ver las tareas pendientes, añadir nuevas y borrar. Para la persistencia de los datos utiliza un base de datos en FaunaDB, que es un servicio de DBaaS en la nube.
+
+## Tecnologías
+
+* [ReactJS](https://react.dev/)
+* [FaunaDB](https://fauna.com/)
+
+## Authors
+
+- [AlegreCode](https://github.com/AlegreCode)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
